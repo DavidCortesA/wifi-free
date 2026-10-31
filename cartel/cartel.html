@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8" />
+<title>Cartel WiFi Gratis</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700;900&display=swap" rel="stylesheet" />
+<style>
+  @page { size: letter; margin: 0; }
+  * { box-sizing: border-box; margin: 0; }
+  html, body { background: #fff; }
+  body {
+    width: 8.5in;
+    height: 11in;
+    font-family: 'Inter', system-ui, sans-serif;
+    color: #000;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  .page {
+    height: 100%;
+    padding: 0.55in 0.6in;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .page > * { flex-shrink: 0; }
+  .wifi { width: 1.2in; height: 0.96in; margin-top: 0.1in; }
+  .wifi path { fill: none; stroke: #000; stroke-width: 11; stroke-linecap: round; }
+  h1 {
+    margin-top: 0.12in;
+    font-weight: 900;
+    font-size: 0.98in;
+    line-height: 1;
+    white-space: nowrap;
+    letter-spacing: -0.03em;
+  }
+  .tag {
+    margin-top: 0.22in;
+    display: inline-block;
+    padding: 0.08in 0.28in;
+    background: #000;
+    color: #fff;
+    font-weight: 700;
+    font-size: 0.36in;
+    border-radius: 999px;
+    letter-spacing: 0.01em;
+  }
+  .qr-wrap {
+    position: relative;
+    margin-top: 0.38in;
+    padding: 0.26in;
+    border: 0.07in solid #000;
+    border-radius: 0.3in;
+  }
+  .qr-wrap svg { display: block; width: 3.85in; height: 3.85in; }
+  .scan {
+    position: absolute;
+    left: 50%;
+    bottom: -0.2in;
+    translate: -50% 0;
+    background: #fff;
+    padding: 0 0.16in;
+    font-weight: 900;
+    font-size: 0.26in;
+    letter-spacing: 0.18em;
+    white-space: nowrap;
+  }
+  .details {
+    margin-top: 0.45in;
+    width: 5.2in;
+    border: 0.025in dashed #000;
+    border-radius: 0.16in;
+    padding: 0.16in 0.3in;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 0.06in 0.2in;
+    text-align: left;
+    font-size: 0.22in;
+  }
+  .details dt { font-weight: 500; color: #333; }
+  .details dd { font-weight: 700; text-align: right; }
+  .foot {
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    gap: 0.12in;
+    font-size: 0.19in;
+    font-weight: 500;
+  }
+  .foot svg { width: 0.28in; height: 0.28in; }
+</style>
+</head>
+<body>
+  <div class="page">
+    <svg class="wifi" viewBox="0 0 100 80" aria-hidden="true">
+      <path d="M9 31a58 58 0 0 1 82 0" />
+      <path d="M21 45a41 41 0 0 1 58 0" />
+      <path d="M33 59a24 24 0 0 1 34 0" />
+      <circle cx="50" cy="71" r="7" />
+    </svg>
+    <h1>WiFi GRATIS</h1>
+    <p class="tag">Escanea para conectarte</p>
+
+    <div class="qr-wrap">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 33 33" shape-rendering="crispEdges"><path fill="#ffffff" d="M0 0h33v33H0z"/><path stroke="#000000" d="M0 0.5h7m1 0h2m2 0h1m1 0h5m1 0h1m1 0h3m1 0h7M0 1.5h1m5 0h1m6 0h1m1 0h1m2 0h1m4 0h1m2 0h1m5 0h1M0 2.5h1m1 0h3m1 0h1m4 0h1m2 0h1m1 0h3m3 0h3m1 0h1m1 0h3m1 0h1M0 3.5h1m1 0h3m1 0h1m1 0h1m1 0h2m4 0h1m5 0h1m1 0h1m1 0h1m1 0h3m1 0h1M0 4.5h1m1 0h3m1 0h1m2 0h2m3 0h1m2 0h1m1 0h4m1 0h1m1 0h1m1 0h3m1 0h1M0 5.5h1m5 0h1m2 0h1m2 0h4m5 0h4m1 0h1m5 0h1M0 6.5h7m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h7M11 7.5h2m1 0h2m4 0h2m1 0h1M2 8.5h1m1 0h3m1 0h2m2 0h2m3 0h2m1 0h3m1 0h2m3 0h1m2 0h1M0 9.5h3m1 0h1m2 0h1m2 0h1m6 0h1m6 0h1m1 0h1m3 0h3M0 10.5h4m1 0h6m5 0h4m1 0h1m6 0h1m2 0h2M5 11.5h1m4 0h1m1 0h2m2 0h1m3 0h1m2 0h2m7 0h1M1 12.5h2m2 0h2m2 0h3m1 0h3m1 0h1m1 0h2m5 0h1m1 0h2m1 0h2M1 13.5h1m2 0h1m2 0h1m2 0h2m5 0h1m6 0h3m1 0h2m1 0h2M0 14.5h4m1 0h2m1 0h1m3 0h1m1 0h1m1 0h1m2 0h3m2 0h1m1 0h1m3 0h3M2 15.5h2m6 0h1m1 0h2m1 0h5m1 0h2m1 0h3m1 0h1m2 0h1M1 16.5h1m4 0h2m2 0h2m3 0h3m2 0h3m2 0h3m1 0h1m1 0h1M1 17.5h2m2 0h1m3 0h1m3 0h1m4 0h1m1 0h2m3 0h2m2 0h2m1 0h1M4 18.5h3m3 0h1m4 0h2m2 0h1m6 0h3m1 0h3M1 19.5h2m4 0h3m3 0h1m4 0h2m1 0h2M0 20.5h3m1 0h1m1 0h2m2 0h2m2 0h4m1 0h3m2 0h1m1 0h1m2 0h1m2 0h1M4 21.5h2m2 0h1m1 0h1m4 0h1m1 0h1m2 0h1m2 0h2m4 0h4M0 22.5h1m1 0h1m1 0h1m1 0h2m1 0h1m2 0h2m4 0h1m1 0h2m1 0h2m1 0h1m2 0h2m1 0h1M1 23.5h1m1 0h1m1 0h1m1 0h2m2 0h2m2 0h2m2 0h3m2 0h2M0 24.5h1m1 0h1m1 0h1m1 0h3m1 0h2m1 0h1m1 0h3m1 0h3m1 0h6m2 0h2M8 25.5h2m1 0h2m6 0h1m1 0h1m1 0h2m3 0h1m3 0h1M0 26.5h7m5 0h2m4 0h1m3 0h3m1 0h1m1 0h1m2 0h2M0 27.5h1m5 0h1m1 0h3m2 0h1m1 0h2m2 0h1m1 0h2m1 0h1m3 0h1m3 0h1M0 28.5h1m1 0h3m1 0h1m1 0h8m6 0h1m1 0h5m2 0h1M0 29.5h1m1 0h3m1 0h1m2 0h1m1 0h1m4 0h2m2 0h1m1 0h1m1 0h1m3 0h2M0 30.5h1m1 0h3m1 0h1m1 0h1m2 0h1m2 0h1m1 0h1m2 0h1m1 0h2m1 0h2m1 0h2m1 0h1m1 0h1M0 31.5h1m5 0h1m3 0h1m3 0h1m1 0h2m2 0h5m1 0h2m1 0h1m1 0h1M0 32.5h7m4 0h3m2 0h1m1 0h4m1 0h6m1 0h3"/></svg>
+
+      <span class="scan">ESCANÉAME</span>
+    </div>
+
+    <dl class="details">
+      <dt>Red</dt><dd>WiFi_Gratis_5G</dd>
+      <dt>Contraseña</dt><dd>No se necesita</dd>
+      <dt>Velocidad</dt><dd>Ilimitada</dd>
+    </dl>
+
+    <p class="foot">
+      <svg viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="7" width="18" height="13" rx="2"/><circle cx="12" cy="13.5" r="3.5"/><path d="M8 7l1.5-3h5L16 7"/></svg>
+      Abre la cámara de tu celular y apunta al código
+    </p>
+  </div>
+</body>
+</html>
